@@ -1,0 +1,25 @@
+
+N9-as-a-mouse
+=============
+
+Installation / Building:
+
+   scp n9mouse.py user@192.168.2.15:
+   make
+
+Usage:
+
+   ssh user@192.168.2.15 -t 'DISPLAY=:0 python n9mouse.py'
+   ./receiver
+
+Dependencies on the N9:
+
+    python-pyside
+
+Dependencies on the Host:
+
+    libxdo (-dev/-devel)
+
+
+ -- thp <m@thp.io>, 2013-06-15
+
